@@ -1,12 +1,12 @@
-( function ( root, factory ) {
-    if ( typeof define === 'function' && define.amd ) {
+( function( root, factory ) {
+    if ( typeof define === "function" && define.amd ) {
         define( [ "./chassis" ], factory );
-    } else if (typeof exports === 'object') {
-        module.exports = factory( require('./chassis') );
+    } else if ( typeof exports === "object" ) {
+        module.exports = factory( require( "./chassis" ) );
     } else {
         root.chassis = factory( root.chassis );
     }
-}(this, function ( chassis ) {
+}( this, function( chassis ) {
 var colors = {
 	"chassis-gray-dark": {
 		"value": "#383838",

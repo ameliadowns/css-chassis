@@ -1,6 +1,6 @@
 // This is just boiler plate dont worry about it
 // This just supports loading in any enviroment
-(function ( root, factory ) {
+( function( root, factory ) {
     if ( typeof define === "function" && define.amd ) {
         define( [], factory );
     } else if ( typeof exports === "object" ) {
@@ -8,6 +8,7 @@
     } else {
         root.chassis = factory();
 	}
-}( this, function () {
+}( this, function() {
+
 //>> return chasses.moduleName;
 } ) );

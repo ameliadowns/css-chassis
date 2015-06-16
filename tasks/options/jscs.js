@@ -1,3 +1,6 @@
 module.exports = {
-	all: [ "*.js", "performance/**/*.js" ]
+	options: {
+		fix: true
+	},
+	all: [ "*.js", "performance/**/*.js", "scss/variables/*.js" ]
 };
