@@ -32,7 +32,7 @@ var colors = {
 		"value": "#fadf51",
 		"name": "Chassis Yellow"
 	}
-}
+};
 chassis.colors = {
 	"background": colors[ "chassis-gray-dark" ],
 	"font": colors[ "chassis-gray-dark" ],
@@ -43,6 +43,6 @@ chassis.colors = {
 		name: "Chassis - Blockquote color",
 		value: "#eee"
 	}
-}
+};
 return chassis;
 } ) );
