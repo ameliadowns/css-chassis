@@ -14,7 +14,7 @@ module.exports = {
 			expand: true,
 			cwd: "icons/svg-source",
 			src: [ "*.svg" ],
-			dest: "icons/svg-min/",
+			dest: "dist/icons/svg-min/",
 			ext: ".svg"
 		} ]
 	}

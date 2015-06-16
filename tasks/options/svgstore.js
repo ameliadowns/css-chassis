@@ -13,7 +13,7 @@ module.exports = {
 			cleanup: [ "style", "fill", "id" ]
 		},
 		files: {
-			"icons/icons.svg": [ "icons/svg-min/*.svg" ]
+			"icons/icons.svg": [ "dist/icons/svg-min/*.svg" ]
 		}
 	}
 };
